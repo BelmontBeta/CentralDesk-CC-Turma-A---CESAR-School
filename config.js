@@ -9,8 +9,8 @@ var CONFIG = {
       light: "assets/images/school_laranja.png",
     },
   
-    githubUrl:   "https://github.com/seu-usuario",
-    linkedinUrl: "https://linkedin.com/in/seu-perfil",
+    githubUrl:   "https://github.com/BelmontBeta",
+    linkedinUrl: "https://www.linkedin.com/in/caio-belmont-29b6191aa/",
   
     links: [
       { label: "Portal do Aluno (Lyceum)",       url: "https://cesar.lyceum.com.br/AOnline3/#/home/avisos", icon: "🎓", type: "link" },
