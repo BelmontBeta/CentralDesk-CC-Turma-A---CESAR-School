@@ -21,7 +21,7 @@ function daysUntil(dateStr) {
   var parts  = dateStr.split("-");
   var today  = new Date(); today.setHours(0,0,0,0);
   var target = new Date(Number(parts[0]), Number(parts[1]) - 1, Number(parts[2]));
-  return Math.ceil((target - today) / 86400000);
+  return Math.floor((target - today) / 86400000);
 }
 
 /* ══════════════════════════════════════════════
@@ -122,7 +122,7 @@ window.addEventListener("beforeinstallprompt", function(e) {
 
 /* ══════════════════════════════════════════════
    SIDE NAV — scroll suave + highlight ativo
-   ══════════════════════════���═══════════════════ */
+   ══════════════════════════════════════════════ */
 
 function initSideNav() {
   var items    = document.querySelectorAll(".side-nav-item[href]");
