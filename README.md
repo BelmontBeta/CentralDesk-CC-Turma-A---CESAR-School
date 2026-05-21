@@ -64,13 +64,6 @@ CentralDesk-CC-Turma-A---CESAR-School/
 - **Banco de Dados:** [Especificar: MongoDB, PostgreSQL, etc]
 - **Outras:** [Especificar bibliotecas/ferramentas importantes]
 
-## 📚 Documentação
-
-Para mais informações sobre como usar e contribuir ao projeto, consulte:
-- [Guia de Instalação](./docs/INSTALL.md) *(se existir)*
-- [Guia de Contribuição](./docs/CONTRIBUTING.md) *(se existir)*
-- [API Documentation](./docs/API.md) *(se existir)*
-
 ## 🤝 Como Contribuir
 
 1. Faça um **Fork** do projeto
@@ -82,7 +75,8 @@ Para mais informações sobre como usar e contribuir ao projeto, consulte:
 ## 👥 Equipe
 
 Projeto desenvolvido pelos alunos da Turma A de Ciência da Computação:
-- [Nome dos membros]
+- [Caio Belmont - CC A]
+- [Tony Barreto - CC B]
 
 ## 📝 Licença
 
@@ -92,7 +86,7 @@ Este projeto está sob a licença [MIT/GPL/Outra] - veja o arquivo [LICENSE](LIC
 
 Para dúvidas ou sugestões:
 - **GitHub:** [@BelmontBeta](https://github.com/BelmontBeta)
-- **Email:** [seu-email@example.com]
+- **Email:** [belmontcaiocontato@gmail.com]
 
 ## 🙏 Agradecimentos
 
