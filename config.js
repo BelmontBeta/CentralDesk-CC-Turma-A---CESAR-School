@@ -73,7 +73,7 @@ var CONFIG = {
     ],
   
     provas: [
-      { data: "2026-06-03", disciplina: "Sistemas Digitais",          tipo: "AV2 · Exercício Avaliativo 3 · 1ª Unidade", horario: "08:15", sala: "Sala 08 · Apolo" },
+      { data: "2026-06-03", disciplina: "Sistemas Digitais",          tipo: "AV2 · Exercício Avaliativo 3 · 1ª Unidade", horario: "08:15", sala: "Garagem 01 · Tiradentes" },
       { data: "2026-06-11", disciplina: "Introdução à Computação",    tipo: "AV2 · 1ª Unidade",                          horario: "08:15", sala: "Sala 08 · Apolo" },
       { data: "2026-06-16", disciplina: "Fundamentos de Programação", tipo: "Módulo 2 · 1ª Unidade",                     horario: "08:15", sala: "Sala 08 · Apolo" },
       { data: "2026-06-17", disciplina: "Matemática para Computação", tipo: "AV2 · 1ª Unidade",                          horario: "08:15", sala: "Sala 08 · Apolo" },
