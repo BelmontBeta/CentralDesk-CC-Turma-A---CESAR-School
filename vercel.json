@@ -1,10 +1,9 @@
 {
-  "redirects": [
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
     {
-      "source": "/((?!maintenance.html$).*)",
-      "destination": "/maintenance.html",
-      "permanent": false,
-      "statusCode": 302
+      "source": "/(.*)",
+      "destination": "/maintenance.html"
     }
   ]
 }
