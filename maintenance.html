@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CentralDesk - Em Férias! ☀️</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Variáveis CSS para cores */
+        :root {
+            --primary-color: #ff6600; /* Laranja CESAR School */
+            --secondary-color: #333;
+            --background-light: #f8f8f8;
+            --background-dark: #eee;
+            --text-light: #666;
+            --card-bg: #fff;
+            --shadow-color: rgba(0, 0, 0, 0.1);
+            --button-bg: #f0f0f0;
+            --button-text: #333;
+        }
+
+        /* Tema Dark */
+        html[data-theme='dark'] {
+            --secondary-color: #f0f0f0;
+            --background-light: #2c2c2c;
+            --background-dark: #1a1a1a;
+            --text-light: #b0b0b0;
+            --card-bg: #3a3a3a;
+            --shadow-color: rgba(0, 0, 0, 0.3);
+            --button-bg: #4a4a4a;
+            --button-text: #f0f0f0;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, var(--background-light) 0%, var(--background-dark) 100%);
+            color: var(--secondary-color);
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+            overflow: hidden;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .container {
+            background-color: var(--card-bg);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px var(--shadow-color);
+            padding: 50px 30px;
+            max-width: 700px;
+            width: 100%;
+            position: relative;
+            z-index: 1;
+            animation: fadeIn 1s ease-out;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 3em;
+            margin-bottom: 15px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        p {
+            font-size: 1.15em;
+            line-height: 1.7;
+            margin-bottom: 25px;
+            color: var(--secondary-color);
+        }
+
+        .emoji-icon {
+            font-size: 4.5em;
+            margin-bottom: 20px;
+            animation: bounce 2s infinite;
+        }
+
+        .return-date {
+            font-size: 1.3em;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-top: 30px;
+            margin-bottom: 30px;
+            padding: 10px 20px;
+            background-color: rgba(255, 102, 0, 0.1);
+            border-radius: 8px;
+            display: inline-block;
+        }
+
+        .contact-info {
+            margin-top: 30px;
+            font-size: 0.95em;
+            color: var(--text-light);
+        }
+
+        .contact-info a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Botão de Tema */
+        .theme-toggle {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: var(--button-bg);
+            color: var(--button-text);
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            font-size: 1.2em;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 2px 5px var(--shadow-color);
+            transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+            z-index: 10;
+        }
+
+        .theme-toggle:hover {
+            transform: scale(1.1);
+        }
+
+        /* Animações */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-15px); }
+            60% { transform: translateY(-7px); }
+        }
+
+        /* Elementos de fundo animados */
+        .background-element {
+            position: absolute;
+            opacity: 0.1;
+            animation: float 10s ease-in-out infinite alternate;
+            font-size: 8em; /* Tamanho padrão para desktop */
+            pointer-events: none; /* Garante que não interfira com cliques */
+        }
+        .sun { top: 10%; left: 5%; animation-delay: 0s; }
+        .palm { bottom: 5%; right: 10%; animation-delay: 2s; }
+        .wave { top: 20%; right: 15%; animation-delay: 4s; }
+        .cocktail { bottom: 15%; left: 15%; animation-delay: 6s; }
+
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            100% { transform: translateY(20px); }
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            h1 { font-size: 2.2em; }
+            p { font-size: 1em; }
+            .emoji-icon { font-size: 3.5em; }
+            .return-date { font-size: 1.1em; }
+            .container { padding: 30px 20px; }
+            .background-element { font-size: 4em !important; } /* Reduzir tamanho dos elementos de fundo */
+            .theme-toggle { top: 10px; right: 10px; width: 35px; height: 35px; font-size: 1em; }
+        }
+    </style>
+</head>
+<body>
+    <button id="theme-toggle" class="theme-toggle">☀️</button>
+
+    <div class="background-element sun">☀️</div>
+    <div class="background-element palm">🌴</div>
+    <div class="background-element wave">🌊</div>
+    <div class="background-element cocktail">🍹</div>
+
+    <div class="container">
+        <div class="emoji-icon">🏖️</div>
+        <h1>Férias! O CentralDesk está recarregando as energias!</h1>
+        <p>
+            O **CentralDesk** entrou em modo férias para um merecido descanso e para voltar com ainda mais novidades e funcionalidades.
+            Estamos aproveitando para recarregar as energias e preparar um retorno incrível!
+        </p>
+        <p class="return-date">
+            Voltaremos com tudo em **Agosto**!
+        </p>
+        <p>
+            Enquanto isso, aproveite o seu recesso!
+        </p>
+        <div class="contact-info">
+            Para assuntos urgentes, você pode nos contatar em <a href="mailto:belmontcaiocontato@gmail.com" target="_blank" style="text-decoration: underline;">belmontcaiocontato@gmail.com</a>.
+        </div>
+    </div>
+
+    <script>
+        function setTheme(theme) {
+            document.documentElement.setAttribute('data-theme', theme);
+            localStorage.setItem('centraldesk-maintenance-theme', theme);
+            updateThemeToggleIcon(theme);
+        }
+
+        function updateThemeToggleIcon(theme) {
+            const toggleButton = document.getElementById('theme-toggle');
+            if (toggleButton) {
+                toggleButton.textContent = theme === 'dark' ? '🌙' : '☀️';
+            }
+        }
+
+        function initTheme() {
+            const savedTheme = localStorage.getItem('centraldesk-maintenance-theme');
+            const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+            let initialTheme = 'light';
+            if (savedTheme) {
+                initialTheme = savedTheme;
+            } else if (prefersDark) {
+                initialTheme = 'dark';
+            }
+
+            setTheme(initialTheme);
+
+            const toggleButton = document.getElementById('theme-toggle');
+            if (toggleButton) {
+                toggleButton.addEventListener('click', () => {
+                    const currentTheme = document.documentElement.getAttribute('data-theme');
+                    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+                    setTheme(newTheme);
+                });
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', initTheme);
+    </script>
+</body>
+</html>

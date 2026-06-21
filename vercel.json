@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    {
+      "source": "/((?!maintenance.html$).*)",
+      "destination": "/maintenance.html",
+      "permanent": false,
+      "statusCode": 302
+    }
+  ]
+}
