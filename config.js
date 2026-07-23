@@ -1,7 +1,7 @@
 var CONFIG = {
 
     turma: "CC Turma A",
-    semestre: "2026.1",
+    semestre: "2026.2",
     whatsappLink: "https://chat.whatsapp.com/EmSVqZR6Klq9f6ZYBYkdsj",
   
     logos: {
@@ -22,72 +22,71 @@ var CONFIG = {
     ],
   
     disciplinas: [
-      { nome: "Matemática para Computação",  classroom: "https://classroom.google.com/u/3/c/ODQ1OTAxNTQ0NzAw" },
-      { nome: "Sistemas Digitais",           classroom: "https://classroom.google.com/u/3/c/ODQzNDg1MDY5MTQ3" },
-      { nome: "Introdução à Computação",     classroom: "https://classroom.google.com/u/3/c/ODQ0MDc1NDI4MzIw" },
-      { nome: "Fundamentos de Programação",  classroom: "https://classroom.google.com/u/3/c/ODQzNzc2MTY1Njky" },
-      { nome: "FP1: Gestão de Pessoas",      classroom: "https://classroom.google.com/u/3/c/ODQzNzcwODAxODMz" },
-      { nome: "Projeto 01",                  classroom: "https://classroom.google.com/u/3/c/ODQzODcyOTE2OTAw" },
+      { nome: "Lógica Matemática para Computação",               classroom: "https://classroom.google.com/u/3/c/" },
+      { nome: "Fundamentos de Desenvolvimento de Software",      classroom: "https://classroom.google.com/u/3/c/" },
+      { nome: "Programação Imperativa e Funcional",              classroom: "https://classroom.google.com/u/3/c/" },
+      { nome: "Interfaces Humano Computador",                    classroom: "https://classroom.google.com/u/3/c/" },
+      { nome: "FP2: Gestão de Projetos",                         classroom: "https://classroom.google.com/u/3/c/" },
+      { nome: "Projeto 02",                                      classroom: "https://classroom.google.com/u/3/c/" },
     ],
   
     grade: [
       {
         dia: "Segunda",
         aulas: [
-          { horario: "08:15 – 10:15", disciplina: "Sistemas Digitais",          sala: "Garagem 01 · Tiradentes" },
-          { horario: "10:30 – 12:30", disciplina: "Matemática para Computação", sala: "Laboratorio 02 · Tiradentes" },
+          { horario: "08:15 – 10:15", disciplina: "Lógica Matemática para Computação", sala: "Desconhecido · (Aguardando)" },
+          { horario: "10:30 – 12:30", disciplina: "Fundamentos de Desenvolvimento de Software", sala: "Desconhecido · (Aguardando)" },
         ],
       },
       {
         dia: "Terça",
         aulas: [
-          { horario: "08:15 – 10:15", disciplina: "Fundamentos de Programação", sala: "Sala 08 · Apolo" },
-          { horario: "10:30 – 12:30", disciplina: "Introdução à Computação",    sala: "Sala 08 · Apolo" },
-          { horario: "13:30 – 14:30", disciplina: "Projeto 01 ⚠️ ver grupo",    sala: "A sala varia com o grupo · Tiradentes", aviso: true },
+          { horario: "08:15 – 10:15", disciplina: "Programação Imperativa e Funcional", sala: "Desconhecido · (Aguardando)" },
+          { horario: "10:30 – 12:30", disciplina: "Interfaces Humano Computador",    sala: "Desconhecido · (Aguardando)" },
+          { horario: "13:30 – 14:30", disciplina: "Projeto 02 ⚠️ ver grupo",    sala: "Desconhecido · (Aguardando)", aviso: true },
         ],
       },
       {
         dia: "Quarta",
         aulas: [
-          { horario: "08:15 – 10:15", disciplina: "Sistemas Digitais",          sala: "Garagem 01 · Tiradentes" },
-          { horario: "10:30 – 12:30", disciplina: "Matemática para Computação", sala: "Laboratorio 02 · Tiradentes" },
-          { horario: "13:30 – 14:30", disciplina: "Projeto 01 ⚠️ ver grupo",    sala: "A sala varia com o grupo · Tiradentes", aviso: true },
+          { horario: "08:15 – 10:15", disciplina: "Lógica Matemática para Computação", sala: "Desconhecido · (Aguardando)" },
+          { horario: "10:30 – 12:30", disciplina: "Fundamentos de Desenvolvimento de Software", sala: "Desconhecido · (Aguardando)" },
+          { horario: "13:30 – 14:30", disciplina: "Projeto 02 ⚠️ ver grupo",    sala: "Desconhecido · (Aguardando)", aviso: true },
         ],
       },
       {
         dia: "Quinta",
         aulas: [
-          { horario: "08:15 – 10:15", disciplina: "Fundamentos de Programação", sala: "Sala 08 · Apolo" },
-          { horario: "10:30 – 12:30", disciplina: "Introdução à Computação",    sala: "Sala 08 · Apolo" },
-          { horario: "13:30 – 14:30", disciplina: "Projeto 01 ⚠️ ver grupo",    sala: "A sala varia com o grupo · Tiradentes", aviso: true },
+          { horario: "08:15 – 10:15", disciplina: "Programação Imperativa e Funcional", sala: "Desconhecido · (Aguardando)" },
+          { horario: "10:30 – 12:30", disciplina: "Interfaces Humano Computador",    sala: "Desconhecido · (Aguardando)" },
+          { horario: "13:30 – 14:30", disciplina: "Projeto 02 ⚠️ ver grupo",    sala: "Desconhecido · (Aguardando)", aviso: true },
         ],
       },
       {
         dia: "Sexta",
         emoji: "🛋️",
         aulas: [
-          { horario: "08:15 – 10:15", disciplina: "FP1: Gestão de Pessoas", sala: "Online 😴", online: true },
-          { horario: "10:30 – 11:30", disciplina: "FP1: Gestão de Pessoas", sala: "Online 😴", online: true },
+          { horario: "08:15 – 10:15", disciplina: "FP2: Gestão de Projetos", sala: "Online 😴", online: true },
+          { horario: "10:30 – 11:30", disciplina: "FP2: Gestão de Projetos", sala: "Online 😴", online: true },
         ],
       },
     ],
   
     provas: [
-      { data: "2026-06-03", disciplina: "Sistemas Digitais",          tipo: "AV2 · Exercício Avaliativo 3 · 1ª Unidade", horario: "08:15", sala: "Garagem 01 · Tiradentes" },
-      { data: "2026-06-11", disciplina: "Introdução à Computação",    tipo: "AV2 · 1ª Unidade",                          horario: "08:15", sala: "Sala 08 · Apolo" },
-      { data: "2026-06-16", disciplina: "Fundamentos de Programação", tipo: "Módulo 2 · 1ª Unidade",                     horario: "08:15", sala: "Sala 08 · Apolo" },
-      { data: "2026-06-17", disciplina: "Matemática para Computação", tipo: "AV2 · 1ª Unidade",                          horario: "08:15", sala: "Sala 08 · Apolo" },
-      { data: "2026-06-12", disciplina: "FP1: Gestão de Pessoas",     tipo: "AV2 · 1ª Unidade",                          horario: "08:15", sala: "Presencial" },
-      { data: "2026-06-19", disciplina: "Projeto 01",                  tipo: "Status Report 2",                           horario: "A confirmar", sala: "Presencial" },
+      { data: "2026-08-01", disciplina: "Lógica Matemática para Computação",                 tipo: "AV1 · 2ª Unidade", horario: "A confirmar", sala: "Desconhecido · (Aguardando)" },
+      { data: "2026-08-01", disciplina: "Fundamentos de Desenvolvimento de Software",        tipo: "AV1 · 2ª Unidade", horario: "A confirmar", sala: "Desconhecido · (Aguardando)" },
+      { data: "2026-08-01", disciplina: "Programação Imperativa e Funcional",                tipo: "AV1 · 2ª Unidade", horario: "A confirmar", sala: "Desconhecido · (Aguardando)" },
+      { data: "2026-08-01", disciplina: "Interfaces Humano Computador",                      tipo: "AV1 · 2ª Unidade", horario: "A confirmar", sala: "Desconhecido · (Aguardando)" },
+      { data: "2026-08-01", disciplina: "FP2: Gestão de Projetos",                           tipo: "AV1 · 2ª Unidade", horario: "A confirmar", sala: "Desconhecido · (Aguardando)" },
+      { data: "2026-08-01", disciplina: "Projeto 02",                                        tipo: "Status Report 1", horario: "A confirmar", sala: "Desconhecido · (Aguardando)" },
     ],
   
     monitorias: [
-      { disciplina: "Matemática para Computação",  dia: "Segunda", horario: "15:00", sala: "Sala 05 · Apolo" },
-      { disciplina: "Matemática para Computação",  dia: "Sexta",   horario: "15:00", sala: "Online" },
-      { disciplina: "Sistemas Digitais",           dia: "Segunda", horario: "14:00", sala: "Online — horário a combinar" },
-      { disciplina: "Projeto 01",                  dia: "—",       horario: "A definir", sala: "—" },
-      { disciplina: "Introdução à Computação",     dia: "—",       horario: "A definir", sala: "—" },
-      { disciplina: "Fundamentos de Programação",  dia: "Segunda", horario: "13:30", sala: "Sala 04 · Apolo" },
-      { disciplina: "Fundamentos de Programação",  dia: "Terça",   horario: "14:30", sala: "Sala 04 · Apolo" },
+      { disciplina: "Lógica Matemática para Computação",                 dia: "A confirmar", horario: "A definir", sala: "Desconhecido · (Aguardando)" },
+      { disciplina: "Fundamentos de Desenvolvimento de Software",        dia: "A confirmar", horario: "A definir", sala: "Desconhecido · (Aguardando)" },
+      { disciplina: "Programação Imperativa e Funcional",                dia: "A confirmar", horario: "A definir", sala: "Desconhecido · (Aguardando)" },
+      { disciplina: "Interfaces Humano Computador",                      dia: "A confirmar", horario: "A definir", sala: "Desconhecido · (Aguardando)" },
+      { disciplina: "FP2: Gestão de Projetos",                           dia: "A confirmar", horario: "A definir", sala: "Desconhecido · (Aguardando)" },
+      { disciplina: "Projeto 02",                                        dia: "A confirmar", horario: "A definir", sala: "Desconhecido · (Aguardando)" },
     ],
   };
