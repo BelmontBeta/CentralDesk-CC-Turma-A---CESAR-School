@@ -73,12 +73,12 @@ var CONFIG = {
     ],
   
     provas: [
-      { data: "2026-08-01", disciplina: "Lógica Matemática para Computação",                 tipo: "AV1 · 2ª Unidade", horario: "A confirmar", sala: "Desconhecido · (Aguardando)" },
-      { data: "2026-08-01", disciplina: "Fundamentos de Desenvolvimento de Software",        tipo: "AV1 · 2ª Unidade", horario: "A confirmar", sala: "Desconhecido · (Aguardando)" },
-      { data: "2026-08-01", disciplina: "Programação Imperativa e Funcional",                tipo: "AV1 · 2ª Unidade", horario: "A confirmar", sala: "Desconhecido · (Aguardando)" },
-      { data: "2026-08-01", disciplina: "Interfaces Humano Computador",                      tipo: "AV1 · 2ª Unidade", horario: "A confirmar", sala: "Desconhecido · (Aguardando)" },
-      { data: "2026-08-01", disciplina: "FP2: Gestão de Projetos",                           tipo: "AV1 · 2ª Unidade", horario: "A confirmar", sala: "Desconhecido · (Aguardando)" },
-      { data: "2026-08-01", disciplina: "Projeto 02",                                        tipo: "Status Report 1", horario: "A confirmar", sala: "Desconhecido · (Aguardando)" },
+      { data: "2030-08-01", disciplina: "Lógica Matemática para Computação",                 tipo: "AV1 · 2ª Unidade", horario: "A confirmar", sala: "Desconhecido · (Aguardando)" },
+      { data: "2030-08-01", disciplina: "Fundamentos de Desenvolvimento de Software",        tipo: "AV1 · 2ª Unidade", horario: "A confirmar", sala: "Desconhecido · (Aguardando)" },
+      { data: "2030-08-01", disciplina: "Programação Imperativa e Funcional",                tipo: "AV1 · 2ª Unidade", horario: "A confirmar", sala: "Desconhecido · (Aguardando)" },
+      { data: "2030-08-01", disciplina: "Interfaces Humano Computador",                      tipo: "AV1 · 2ª Unidade", horario: "A confirmar", sala: "Desconhecido · (Aguardando)" },
+      { data: "2030-08-01", disciplina: "FP2: Gestão de Projetos",                           tipo: "AV1 · 2ª Unidade", horario: "A confirmar", sala: "Desconhecido · (Aguardando)" },
+      { data: "2030-08-01", disciplina: "Projeto 02",                                        tipo: "Status Report 1", horario: "A confirmar", sala: "Desconhecido · (Aguardando)" },
     ],
   
     monitorias: [
