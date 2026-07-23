@@ -18,7 +18,7 @@ var CONFIG = {
       { label: "Comunidade CESAR School",         url: "https://a.cesar.school/ConviteCC",                   icon: "🏫", type: "link" },
       { label: "Portal de Carreiras - Workalove", url: "https://workability.worka.love/#/",                  icon: "🔥", type: "link" },
       { label: "Manual do Estudante",             url: "assets/pdfs/Manual-do-Estudante-2026.1.pdf", icon: "📖", type: "pdf" },
-      { label: "Calendário Acadêmico",            url: "assets/pdfs/Calendário Acadêmico 2026.1.pdf", icon: "📅", type: "pdf" },
+      { label: "Calendário Acadêmico",            url: "assets/pdfs/Calendário Acadêmico 2026.2.pdf", icon: "📅", type: "pdf" },
     ],
   
     disciplinas: [
