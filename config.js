@@ -34,32 +34,32 @@ var CONFIG = {
       {
         dia: "Segunda",
         aulas: [
-          { horario: "08:15 – 10:15", disciplina: "Lógica Matemática para Computação", sala: "Desconhecido · (Aguardando)" },
-          { horario: "10:30 – 12:30", disciplina: "Fundamentos de Desenvolvimento de Software", sala: "Desconhecido · (Aguardando)" },
+          { horario: "08:15 – 10:15", disciplina: "Lógica Matemática para Computação", sala: "104 · Brum" },
+          { horario: "10:30 – 12:30", disciplina: "Fundamentos de Desenvolvimento de Software", sala: "104 · Brum" },
         ],
       },
       {
         dia: "Terça",
         aulas: [
-          { horario: "08:15 – 10:15", disciplina: "Programação Imperativa e Funcional", sala: "Desconhecido · (Aguardando)" },
-          { horario: "10:30 – 12:30", disciplina: "Interfaces Humano Computador",    sala: "Desconhecido · (Aguardando)" },
-          { horario: "13:30 – 14:30", disciplina: "Projeto 02 ⚠️ ver grupo",    sala: "Desconhecido · (Aguardando)", aviso: true },
+          { horario: "08:15 – 10:15", disciplina: "Programação Imperativa e Funcional", sala: "104 · Brum" },
+          { horario: "10:30 – 12:30", disciplina: "Interfaces Humano Computador",    sala: "104 · Brum" },
+          { horario: "13:30 – 14:30", disciplina: "Projeto 02 ⚠️ ver grupo",    sala: "104 · Brum", aviso: true },
         ],
       },
       {
         dia: "Quarta",
         aulas: [
-          { horario: "08:15 – 10:15", disciplina: "Lógica Matemática para Computação", sala: "Desconhecido · (Aguardando)" },
-          { horario: "10:30 – 12:30", disciplina: "Fundamentos de Desenvolvimento de Software", sala: "Desconhecido · (Aguardando)" },
-          { horario: "13:30 – 14:30", disciplina: "Projeto 02 ⚠️ ver grupo",    sala: "Desconhecido · (Aguardando)", aviso: true },
+          { horario: "08:15 – 10:15", disciplina: "Lógica Matemática para Computação", sala: "104 · Brum" },
+          { horario: "10:30 – 12:30", disciplina: "Fundamentos de Desenvolvimento de Software", sala: "104 · Brum" },
+          { horario: "13:30 – 14:30", disciplina: "Projeto 02 ⚠️ ver grupo",    sala: "104 · Brum", aviso: true },
         ],
       },
       {
         dia: "Quinta",
         aulas: [
-          { horario: "08:15 – 10:15", disciplina: "Programação Imperativa e Funcional", sala: "Desconhecido · (Aguardando)" },
-          { horario: "10:30 – 12:30", disciplina: "Interfaces Humano Computador",    sala: "Desconhecido · (Aguardando)" },
-          { horario: "13:30 – 14:30", disciplina: "Projeto 02 ⚠️ ver grupo",    sala: "Desconhecido · (Aguardando)", aviso: true },
+          { horario: "08:15 – 10:15", disciplina: "Programação Imperativa e Funcional", sala: "104 · Brum" },
+          { horario: "10:30 – 12:30", disciplina: "Interfaces Humano Computador",    sala: "104 · Brum" },
+          { horario: "13:30 – 14:30", disciplina: "Projeto 02 ⚠️ ver grupo",    sala: "104 · Brum", aviso: true },
         ],
       },
       {
