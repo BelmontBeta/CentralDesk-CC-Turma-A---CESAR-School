@@ -76,7 +76,6 @@ var CONFIG = {
       { data: "2026-08-20", disciplina: "Programação Imperativa e Funcional",                tipo: "Mini-Prova 01 · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },
       { data: "2026-09-10", disciplina: "Programação Imperativa e Funcional",                tipo: "Mini-Prova 02 · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },
       { data: "2026-09-29", disciplina: "Programação Imperativa e Funcional",                tipo: "Mini-Prova 03 · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },
-      { data: "2026-09-10", disciplina: "Programação Imperativa e Funcional",                tipo: "Lançamento de Projeto · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },  
       { data: "2026-10-05", disciplina: "Lógica Matemática para Computação",                 tipo: "AV1 · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },
       { data: "2026-10-06", disciplina: "Fundamentos de Desenvolvimento de Software",        tipo: "AV1 · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },
       { data: "2026-10-07", disciplina: "Programação Imperativa e Funcional",                tipo: "AV1 · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },
