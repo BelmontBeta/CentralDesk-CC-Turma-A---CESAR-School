@@ -78,7 +78,7 @@ function applyBase() {
   // footer
   var ft = $("#footer-text");
   if (ft) ft.textContent =
-    "Feito por Caio Belmont, representante da " +
+    "Feito por Caio Belmont, Ex-representante de " +
     CONFIG.turma + " de Ciência da Computação " +
     CONFIG.semestre + ", inspirado por Thony Barreto, Ao Infinito e Além! 🚀 • CESAR School";
 
