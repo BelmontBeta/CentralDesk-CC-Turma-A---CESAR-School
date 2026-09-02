@@ -21,13 +21,14 @@ var CONFIG = {
       { label: "Calendário Acadêmico",            url: "assets/pdfs/Calendario-Academico-2026.2.pdf", icon: "📅", type: "pdf" },
     ],
   
+    // Adicione courseId/feedUrl para integrar com o Classroom (preencha com os valores do Apps Script deploy)
     disciplinas: [
-      { nome: "Lógica Matemática para Computação",               classroom: "https://classroom.google.com/u/3/c/" },
-      { nome: "Fundamentos de Desenvolvimento de Software",      classroom: "https://classroom.google.com/u/3/c/" },
-      { nome: "Programação Imperativa e Funcional",              classroom: "https://classroom.google.com/u/3/c/" },
-      { nome: "Interfaces Humano Computador",                    classroom: "https://classroom.google.com/u/3/c/" },
-      { nome: "FP2: Gestão de Projetos",                         classroom: "https://classroom.google.com/u/3/c/" },
-      { nome: "Projeto 02",                                      classroom: "https://classroom.google.com/u/3/c/" },
+      { nome: "Lógica Matemática para Computação",               classroom: "https://classroom.google.com/u/3/c/", courseId: "", feedUrl: "" },
+      { nome: "Fundamentos de Desenvolvimento de Software",      classroom: "https://classroom.google.com/u/3/c/", courseId: "", feedUrl: "" },
+      { nome: "Programação Imperativa e Funcional",              classroom: "https://classroom.google.com/u/3/c/", courseId: "", feedUrl: "" },
+      { nome: "Interfaces Humano Computador",                    classroom: "https://classroom.google.com/u/3/c/", courseId: "", feedUrl: "" },
+      { nome: "FP2: Gestão de Projetos",                         classroom: "https://classroom.google.com/u/3/c/", courseId: "", feedUrl: "" },
+      { nome: "Projeto 02",                                      classroom: "https://classroom.google.com/u/3/c/", courseId: "", feedUrl: "" },
     ],
   
     grade: [
