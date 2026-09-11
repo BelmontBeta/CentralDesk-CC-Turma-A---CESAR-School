@@ -1,6 +1,7 @@
 # CentralDesk - CC Turma A CESAR School
 
 > Um sistema centralizado de gestão desenvolvido por alunos da Turma A de Ciência da Computação da CESAR School.
+> Inspirado pelo projeto original de Thony Barreto
 
 ## 📋 Sobre o Projeto
 
