@@ -76,11 +76,11 @@ var CONFIG = {
     provas: [
       { data: "2026-09-29", disciplina: "Programação Imperativa e Funcional",                tipo: "Mini-Prova 03 · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },
       { data: "2026-10-05", disciplina: "Lógica Matemática para Computação",                 tipo: "AV1 · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },
-      { data: "2026-10-30", disciplina: "Fundamentos de Desenvolvimento de Software",        tipo: "AV1 · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },
+      { data: "2026-09-30", disciplina: "Fundamentos de Desenvolvimento de Software",        tipo: "AV1 · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },
       { data: "2026-10-01", disciplina: "Interfaces Humano Computador",                      tipo: "AV1 (Atividade) · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },  
       { data: "2026-10-06", disciplina: "Interfaces Humano Computador",                      tipo: "AV1 (Prova) · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },
       { data: "2026-10-02", disciplina: "FP2: Gestão de Projetos",                           tipo: "AV1 · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },
-      { data: "2026-10-24", disciplina: "Projeto 02",                                        tipo: "Status Report 1", horario: "A confirmar", sala: "104 · Brum" },
+      { data: "2026-09-24", disciplina: "Projeto 02",                                        tipo: "Status Report 1", horario: "A confirmar", sala: "104 · Brum" },
     ],
   
     monitorias: [
