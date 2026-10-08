@@ -74,13 +74,16 @@ var CONFIG = {
     ],
   
     provas: [
-      { data: "2026-10-01", disciplina: "Programação Imperativa e Funcional",                tipo: "Mini-Prova 03 · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },
-      { data: "2026-10-05", disciplina: "Lógica Matemática para Computação",                 tipo: "AV1 · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },
-      { data: "2026-09-30", disciplina: "Fundamentos de Desenvolvimento de Software",        tipo: "AV1 · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },
-      { data: "2026-10-01", disciplina: "Interfaces Humano Computador",                      tipo: "AV1 (Atividade) · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },  
-      { data: "2026-10-06", disciplina: "Interfaces Humano Computador",                      tipo: "AV1 (Prova) · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },
-      { data: "2026-10-02", disciplina: "FP2: Gestão de Projetos",                           tipo: "AV1 · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },
-      { data: "2026-09-24", disciplina: "Projeto 02",                                        tipo: "Status Report 1", horario: "A confirmar", sala: "104 · Brum" },
+      { data: "2026-10-27", disciplina: "Programação Imperativa e Funcional",                tipo: "Mini-Prova 04 · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },
+      { data: "2026-11-26", disciplina: "Programação Imperativa e Funcional",                tipo: "Mini-Prova 05 · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },
+      { data: "2026-11-19", disciplina: "Programação Imperativa e Funcional",                tipo: "Apresentação Projetos · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },
+      { data: "2026-11-24", disciplina: "Programação Imperativa e Funcional",                tipo: "Apresentação Projetos · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },
+      { data: "2026-12-02", disciplina: "Lógica Matemática para Computação",                 tipo: "AV2 · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },
+      { data: "2026-11-30", disciplina: "Fundamentos de Desenvolvimento de Software",        tipo: "AV2 · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },
+      { data: "2026-11-26", disciplina: "Interfaces Humano Computador",                      tipo: "AV2 · Apresentações dos Projetos Aplicados · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },  
+      { data: "2026-12-01", disciplina: "Interfaces Humano Computador",                      tipo: "AV2 · Apresentações dos Projetos Aplicados · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" }, 
+      { data: "2026-11-27", disciplina: "FP2: Gestão de Projetos",                           tipo: "AV2 · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },
+      { data: "2026-12-11", disciplina: "Projeto 02",                                        tipo: "Status Report 2", horario: "A confirmar", sala: "104 · Brum" },
     ],
   
     monitorias: [
