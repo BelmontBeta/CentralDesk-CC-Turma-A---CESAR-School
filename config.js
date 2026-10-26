@@ -74,7 +74,7 @@ var CONFIG = {
     ],
   
     provas: [
-      { data: "2026-10-27", disciplina: "Programação Imperativa e Funcional",                tipo: "Mini-Prova 04 · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },
+      { data: "2026-10-29", disciplina: "Programação Imperativa e Funcional",                tipo: "Mini-Prova 04 · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },
       { data: "2026-11-26", disciplina: "Programação Imperativa e Funcional",                tipo: "Mini-Prova 05 · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },
       { data: "2026-11-19", disciplina: "Programação Imperativa e Funcional",                tipo: "Apresentação Projetos · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },
       { data: "2026-11-24", disciplina: "Programação Imperativa e Funcional",                tipo: "Apresentação Projetos · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },
