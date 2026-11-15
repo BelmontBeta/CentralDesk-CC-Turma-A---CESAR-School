@@ -18,11 +18,11 @@ function formatDate(dateStr) {
 }
 
 function daysUntil(dateStr) {
-  var parts  = dateStr.split("-");
-  var today  = new Date(); today.setHours(18,0,0,0); // ← Considerar 18h como referência
-  var target = new Date(Number(parts[0]), Number(parts[1]) - 1, Number(parts[2]));
-  target.setHours(0,0,0,0); // ← Prova começa à meia-noite do dia marcado
-  return Math.floor((target - today) / 86400000);
+  var parts = dateStr.split("-");
+  var today = new Date();
+  var todayUTC = Date.UTC(today.getFullYear(), today.getMonth(), today.getDate());
+  var targetUTC = Date.UTC(Number(parts[0]), Number(parts[1]) - 1, Number(parts[2]));
+  return Math.round((targetUTC - todayUTC) / 86400000);
 }
 
 /* ══════════════════════════════════════════════
