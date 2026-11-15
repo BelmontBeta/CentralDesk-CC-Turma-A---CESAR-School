@@ -82,7 +82,7 @@ var CONFIG = {
       { data: "2026-12-02", disciplina: "Lógica Matemática para Computação",                 tipo: "AV2 · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },
       { data: "2026-11-30", disciplina: "Fundamentos de Desenvolvimento de Software",        tipo: "AV2 · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },
       { data: "2026-11-24", disciplina: "Interfaces Humano Computador",                      tipo: "AV2 · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },  
-      { data: "2026-11-03", disciplina: "Interfaces Humano Computador",                      tipo: "AV2 · Apresentações dos Projetos Aplicados · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },  
+      { data: "2026-12-03", disciplina: "Interfaces Humano Computador",                      tipo: "AV2 · Apresentações dos Projetos Aplicados · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },  
       { data: "2026-12-01", disciplina: "Interfaces Humano Computador",                      tipo: "AV2 · Apresentações dos Projetos Aplicados · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" }, 
       { data: "2026-11-27", disciplina: "FP2: Gestão de Projetos",                           tipo: "AV2 · 2ª Unidade", horario: "A confirmar", sala: "104 · Brum" },
       { data: "2026-12-11", disciplina: "Projeto 02",                                        tipo: "Status Report 2", horario: "A confirmar", sala: "104 · Brum" },
